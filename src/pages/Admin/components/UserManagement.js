@@ -67,7 +67,7 @@ class UserManagement extends Component {
     };
     let _this = this;
     $.ajax({
-      url: 'http://localhost:8080/music_war_exploded/adminFindAllUsers',
+      url: 'http://127.0.0.1:8080/music_war_exploded/adminFindAllUsers',
       method: 'GET',
       success: function (tdata) {
         // console.log(tdata);

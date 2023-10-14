@@ -36,7 +36,7 @@ class EventAdd extends Component {
     let _this = this;
     // 进行其他处理或者发起登录请求
     $.ajax({
-      url: 'http://localhost:8080/music_war_exploded/getVenueAndVenueSection',
+      url: 'http://127.0.0.1:8080/music_war_exploded/getVenueAndVenueSection',
       method: 'GET',
       success: function (tdata) {
         // console.log(tdata);
@@ -104,7 +104,7 @@ class EventAdd extends Component {
       let _this = this;
     // 进行其他处理或者发起登录请求
       $.ajax({
-        url: 'http://localhost:8080/music_war_exploded/eventPlannerAddEvent',
+        url: 'http://127.0.0.1:8080/music_war_exploded/eventPlannerAddEvent',
         method: 'POST',
         data: {
           event_planner_name: eventPlannerName, //活动组织者

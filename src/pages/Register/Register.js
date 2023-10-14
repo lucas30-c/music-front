@@ -44,7 +44,7 @@ class Register extends Component {
         
         // 进行其他处理或者发起登录请求
         $.ajax({
-          url: 'http://localhost:8080/music_war_exploded/register',
+          url: 'http://127.0.0.1:8080/music_war_exploded/register',
           method: 'GET',
           data: {
             user_name: username,

@@ -73,8 +73,8 @@ class BookingEvents extends Component {
     let user_id =  JSON.parse(sessionStorage.getItem("user")).id;
     // // 进行其他处理或者发起登录请求
     $.ajax({
-      // url: 'http://localhost:8080/music_war_exploded/eventPlannerFindAllEventsAndVenueInfo',
-      url: 'http://localhost:8080/music_war_exploded/findCustomerBookingEvents',
+      // url: 'http://127.0.0.1:8080/music_war_exploded/eventPlannerFindAllEventsAndVenueInfo',
+      url: 'http://127.0.0.1:8080/music_war_exploded/findCustomerBookingEvents',
       data:{
         user_id,
       },  
@@ -164,7 +164,7 @@ class BookingEvents extends Component {
     //     let _this = this;
     // 进行其他处理或者发起登录请求
       // $.ajax({
-      //   url: 'http://localhost:8080/music_war_exploded/eventPlannerCancelEvent',
+      //   url: 'http://127.0.0.1:8080/music_war_exploded/eventPlannerCancelEvent',
       //   method: 'POST',
       //   data: {
       //     eventId: record.id,
@@ -269,7 +269,7 @@ class BookingEvents extends Component {
     let _this = this;
 
     // $.ajax({
-    //   url: 'http://localhost:8080/music_war_exploded/customerSearch',
+    //   url: 'http://127.0.0.1:8080/music_war_exploded/customerSearch',
     //   method: 'GET',
     //   data: {
     //     inputEventName,

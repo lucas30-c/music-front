@@ -88,7 +88,7 @@ class EventEdit extends Component {
       let _this = this;
     // 进行其他处理或者发起登录请求
       $.ajax({
-        url: 'http://localhost:8080/music_war_exploded/eventPlannerUpdateDateAndPrice',
+        url: 'http://127.0.0.1:8080/music_war_exploded/eventPlannerUpdateDateAndPrice',
         method: 'POST',
         data: {
           eventId: _this.state.eventId,
